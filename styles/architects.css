@@ -46,6 +46,11 @@ main{
 main > section{
     margin-top: 130px ;
 }
+
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 /* Header Style */
 .brand{
     font-size: 2.8rem;
@@ -114,13 +119,45 @@ main > section{
    
 }
 
-.feature-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-}
+
 
 #quick-list{
     font-weight: 500;
+}
+
+/* Some Facts CSS */
+
+.fact-card{
+    border: 1px solid #FF900E;
+    height: 241.83px;
+    width: 241.83px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+
+}
+.fact-description{
+    max-width: 540px;
 }
 
 /* Responsive Media Query */
