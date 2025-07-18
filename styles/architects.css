@@ -130,10 +130,46 @@ main>section {
 
 }
 
-
-
 #quick-list {
     font-weight: 500;
+}
+
+
+/* Feature CSS */
+.features{
+    gap: 140px;
+}
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.feature-card .feature-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+
+}
+
+#experience-year{
+    font: 4rem;
+    font-weight: 700;
+}
+.featured-architect img{
+    width: 100%;
 }
 
 /* Some Facts CSS */
@@ -218,6 +254,13 @@ main>section {
         justify-items: center;
         gap: 24px;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .features{
+        flex-direction: column;
+    }
 }
 
 /* Medium Size Device */
@@ -245,5 +288,12 @@ main>section {
         justify-items: center;
         gap: 20px;
         align-items: center;
+    }
+     .features{
+        flex-direction: column;
+    }
+     #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
